@@ -82,4 +82,94 @@ main {
   background-color: rgba(121, 23, 105, 0.5);
 }
 
+.level-zero .field {
+  display: flex;
+}
+
+.level-zero .field .red {
+  align-self: flex-start;
+}
+
+.level-one .field {
+  display: flex;
+  align-items: flex-end;
+}
+
+.level-two .field {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.level-three .field {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.level-four .field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.level-four .field .red {
+  align-self: flex-end;
+}
+
+.level-four .field .purple {
+  align-self: flex-start;
+}
+
+.level-five .field {
+  display: flex;
+}
+
+.level-five .field .red {
+  flex-grow: 2;
+}
+
+.level-five .field .blue {
+  flex-grow: 1;
+}
+
+.level-five .field .purple {
+  flex-grow: 2;
+}
+
+.level-six .field {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.level-six .field .red {
+  flex-grow: 2;
+}
+
+.level-six .field .blue {
+  flex-grow: 3;
+}
+
+.level-six .field .purple {
+  align-self: flex-start;
+  flex-grow: 1;
+}
+
+.level-seven .field {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.level-eight .field {
+  display: flex;
+  flex-flow: row wrap-reverse;
+}
+
+.level-eight .field .purple:last-child {
+  flex-grow: 5;
+}
+
 /* DO NOT MODIFY THIS FILE TO COMPLETE THE CHALLENGE */
