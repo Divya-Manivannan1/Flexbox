@@ -1,0 +1,17 @@
+.container {
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  height: 90vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: #525659;
+  color: white;
+  margin: 10px;
+  justify-self: ;
+}
